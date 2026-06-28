@@ -10,7 +10,7 @@ app.use(cors({
   origin: [
     "http://localhost:3000",
     "http://localhost:5173",
-    "mediguard-ai-pyjm.vercel.app",
+    "http://mediguard-ai-pyjm.vercel.app",
     "https://*.vercel.app",
   ],
   credentials: true,
