@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import VoiceInput from "./VoiceInput";
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 
 const QUICK = [
   "What are symptoms of dengue fever?",

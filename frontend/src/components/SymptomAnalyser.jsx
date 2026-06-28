@@ -1,6 +1,6 @@
 import { useState } from "react";
 import VoiceInput from "./VoiceInput";
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 
 const urgencyConfig = {
   Emergency: { cls:"emergency", icon:"🚨", sub:"CALL 108 IMMEDIATELY!" },

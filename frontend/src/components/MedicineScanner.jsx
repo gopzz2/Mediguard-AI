@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 
 export default function MedicineScanner({ language }) {
   const [medicineName, setMedicineName] = useState("");

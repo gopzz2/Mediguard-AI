@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 
 const REPORT_TYPES = [
   { id:"Blood Test",     icon:"🩸", desc:"CBC, HbA1c, Lipid profile, Liver function" },

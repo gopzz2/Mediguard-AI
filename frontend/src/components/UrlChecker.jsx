@@ -1,5 +1,5 @@
 import { useState } from "react";
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 const safetyConfig = {
   Safe:      { cls:"safe",      icon:"🛡️", color:"var(--accent2)" },
   Suspicious:{ cls:"suspicious",icon:"⚠️", color:"var(--warn)" },

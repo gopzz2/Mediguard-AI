@@ -1,7 +1,7 @@
 import { useState } from "react";
 import VoiceInput from "./VoiceInput";
 
-const BACKEND = "http://localhost:5000";
+const BACKEND = "https://mediguard-ai-dp8p.onrender.com";
 
 const verdictConfig = {
   TRUE:         { cls:"true",         icon:"✅", color:"var(--accent2)", label:"True Claim" },
